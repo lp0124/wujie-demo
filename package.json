@@ -1,0 +1,20 @@
+{
+  "name": "wujie-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "run-p install:*",
+    "install:main": "cd main-vue2 && npm i",
+    "install:child": "cd vue2-element-ui && npm i",
+    "serve": "run-p serve:*",
+    "serve:main": "cd main-vue2 && npm run serve",
+    "serve:child": "cd vue2-element-ui && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
